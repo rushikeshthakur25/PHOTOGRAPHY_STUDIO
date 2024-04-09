@@ -1,0 +1,59 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "Eternal Embrace",
+        "slug": "guitar-fundamentals",
+        "description": "A timeless black and white shot capturing the newlyweds in a tender embrace under a canopy of cherry blossoms. Their love shines through in every glance, creating a moment that feels eternally romantic",
+        "price": 99.99,
+        "instructor": "John Doe",
+        "isFeatured": true,
+        "image": "/courses/EternalEmbrace.jpg" 
+      },
+     
+      {
+        "id": 3,
+        "title": "Golden Sunset Kiss",
+        "slug": "advanced-vocal-techniques",
+        "description": "Bathed in the warm glow of the setting sun, the couple shares a passionate kiss against the backdrop of a picturesque beach. The vibrant colors of the sky reflect the intensity of their love, making this moment truly unforgettable",
+        "price": 119.99,
+        "instructor": "Emily Johnson",
+        "isFeatured": true,
+        "image": "/courses/GoldenSunsetKiss.jpg" 
+      },
+      
+      {
+        "id": 6,
+        "title": "Whispers of Love",
+        "slug": "music-production-fundamentals",
+        "description": "In a quiet corner of the garden, the bride and groom share a private moment, their heads bent together in whispered conversation. The soft light filtering through the trees adds an ethereal quality to this intimate exchange of vows.",
+        "price": 149.99,
+        "instructor": "Alex Wilson",
+        "isFeatured": true,
+        "image": "/courses/WhispersofLove.jpg"
+      },
+      
+      {
+        "id": 8,
+        "title": "Dancing Under the Stars",
+        "slug": "electronic-music-production",
+        "description": "As the night sky twinkles above, the newlyweds take to the dance floor for their first dance as husband and wife. Their graceful movements and radiant smiles illuminate the darkness, creating a magical atmosphere filled with love and joy.",
+        "price": 169.99,
+        "instructor": "Luke Harris",
+        "isFeatured": true,
+        "image": "/courses/DancingUndertheStars.jpg"
+      },
+    
+      {
+        "id": 10,
+        "title": "Family Bonds",
+        "slug": "blues-guitar-techniques",
+        "description": "Surrounded by their loved ones, the couple shares a heartfelt moment with their parents, linking arms and exchanging emotional glances. This shot captures the essence of family bonds and the support that surrounds the newlyweds on their special day. ",
+        "price": 189.99,
+        "instructor": "Ethan Moore",
+        "isFeatured": true,
+        "image": "/courses/FamilyBonds.jpg"
+      }
+    ]
+  }
+  
