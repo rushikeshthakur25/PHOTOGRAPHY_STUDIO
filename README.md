@@ -2,7 +2,7 @@
 
 Welcome to the README file for [Your Photography Studio Name] website! This repository contains the frontend code for our photography studio website, built using Next.js.
 
-![Website Preview](website-preview.png)
+![Website Preview](<a href='https://photography-capturing.netlify.app'>Click</a>)
 
 ## Overview
 
