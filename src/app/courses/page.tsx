@@ -10,10 +10,10 @@ import courseData from '@/data/music_courses.json'
 function page() {
   return (
     <div className="min-h-screen bg-black py-12 pt-36 ">
-      <h1 className="text-lg md:text-2xl text-center font-sans mb-8 text-white">Impress your clients by easily creating an album site that they'll love.{courseData.courses.length}</h1>
+      <h1 className="text-lg md:text-2xl text-center font-sans mb-8 text-white">Impress your clients by easily creating an album site that they&apos;ll love.{courseData.courses.length}</h1>
       <div className="flex flex-wrap justify-center ">
-          {courseData.courses.map((course)=> (
-             <CardContainer className="inter-var m-2">
+          {courseData.courses.map((course,index)=> (
+             <CardContainer key={index} className="inter-var m-2">
              <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                <CardItem
                  translateZ="50"
@@ -21,13 +21,13 @@ function page() {
                >
                  {course.title}
                </CardItem>
-               <CardItem
+               {/* <CardItem
                  as="p"
                  translateZ="60"
                  className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
                >
-                 {/* {course.description} */}
-               </CardItem>
+                 {course.description}
+               </CardItem> */}
                <CardItem translateZ="100" className="w-full mt-4">
                  <Image
                    src={course.image}
@@ -63,5 +63,6 @@ function page() {
     </div>
   )
 }
+
 
 export default page
